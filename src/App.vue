@@ -12,7 +12,6 @@ import zhTw from 'element-plus/es/locale/lang/zh-tw'
 import en from 'element-plus/es/locale/lang/en'
 
 const { locale } = useI18n()
-
 const localeSetting = computed(() => {
   return locale.value === 'zhTw' ? zhTw : en
 })
