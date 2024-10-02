@@ -9,7 +9,6 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/cdp-intro/', // 這裡設置為倉庫名稱
   plugins: [
     vue(),
     vueDevTools(),
