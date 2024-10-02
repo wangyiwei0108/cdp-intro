@@ -559,9 +559,6 @@ const stepsData = computed(() => {
 <style>
 .el-tour__arrow,
 .el-tour__content {
-  /* background-color: pink !important; */
-}
-.el-tour__content {
   box-shadow:
     rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px,
