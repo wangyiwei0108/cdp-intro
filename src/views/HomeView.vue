@@ -1,6 +1,6 @@
 <template>
   <div class="flex">
-    <!-- 左半邊 -->
+    <!-- 左部分 -->
     <div class="h-[100vh] w-[1032px] bg-neutral-100">
       <el-scrollbar view-class="p-4">
         <el-button-group size="large" class="mb-4">
