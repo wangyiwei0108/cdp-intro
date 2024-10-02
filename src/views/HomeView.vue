@@ -379,6 +379,7 @@ import { ref, computed } from 'vue'
 import type { ButtonInstance } from 'element-plus'
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 const options = computed(() => {
   return [
@@ -394,8 +395,6 @@ const options = computed(() => {
 })
 
 const { t } = useI18n({ useScope: 'global' })
-
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 const open = ref(false)
 const current = ref(0)
