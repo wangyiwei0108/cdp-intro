@@ -356,7 +356,7 @@
       </el-scrollbar>
     </div>
   </div>
-  <el-tour @change="handleStepChange" :mask="false" v-model="open" v-model:current="current">
+  <el-tour :mask="false" v-model="open" v-model:current="current">
     <el-tour-step
       v-for="step in stepsData"
       :key="step.current"
@@ -399,10 +399,6 @@ const { t } = useI18n({ useScope: 'global' })
 const open = ref(false)
 const current = ref(0)
 const drawer = ref(false)
-
-const handleStepChange = (current: number) => {
-  console.log('current: ', current)
-}
 
 const handleBeginTour = () => {
   open.value = true
