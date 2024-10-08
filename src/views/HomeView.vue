@@ -551,7 +551,7 @@ const stepsData = computed(() => {
 })
 </script>
 
-<style scoped>
+<style>
 .el-tour__content {
   box-shadow:
     rgba(0, 0, 0, 0.25) 0px 54px 55px,
